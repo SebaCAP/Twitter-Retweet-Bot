@@ -24,4 +24,4 @@ class MyStreamListener(tweepy.StreamListener):
 
 stream_listener = MyStreamListener()
 stream = tweepy.Stream(auth=api.auth, listener=stream_listener)
-stream.filter(track=["Python"], languages=["en"])
+stream.filter(track=["Peñarol"], )
